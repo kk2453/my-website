@@ -19,13 +19,13 @@ export function HeroTile() {
           className="text-4xl md:text-5xl font-light leading-tight mb-2"
           style={{ color: 'var(--color-text)', fontFamily: 'var(--font-serif)' }}
         >
-          hey, i'm kk.
+          Hey, I’m Kartikay
         </h1>
         <p
           className="text-sm"
           style={{ color: 'var(--color-text-muted)', fontFamily: 'var(--font-mono)' }}
         >
-          cs major. i build systems and put them on cloud.
+          a systems and cloud engineer building scalable software, infrastructure, and startup products.
         </p>
       </div>
     </div>

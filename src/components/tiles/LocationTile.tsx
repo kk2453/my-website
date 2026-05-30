@@ -38,12 +38,20 @@ export function LocationTile() {
 
       <div className="mt-auto">
         {error ? (
-          <p
-            className="text-sm"
-            style={{ color: 'var(--color-accent-text)', fontFamily: 'var(--font-mono)', opacity: 0.7 }}
-          >
-            open via cloudflare to see edge
-          </p>
+          <div className="mt-auto flex flex-col gap-1">
+             <p
+                className="text-2xl font-medium tracking-wider"
+                style={{ color: 'var(--color-accent-text)', fontFamily: 'var(--font-mono)' }}
+            >
+            offline
+            </p>
+            <p 
+                className="text-xs" 
+                style={{ color: 'var(--color-accent-text)', fontFamily: 'var(--font-mono)', opacity: 0.6 }}
+            >
+                open via cloudflare to see the edge node
+            </p>
+  </div>
         ) : edge ? (
           <>
             <p

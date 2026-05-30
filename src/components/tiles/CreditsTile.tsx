@@ -1,3 +1,5 @@
+const description = "me with help from claude and chatgpt — may 2026"
+
 export function CreditsTile() {
   return (
     <div
@@ -18,7 +20,7 @@ export function CreditsTile() {
         className="mt-auto text-xs"
         style={{ color: 'var(--color-text-muted)', fontFamily: 'var(--font-mono)' }}
       >
-        me with help from claude and chatgpt — may 2026
+        {description}
       </p>
     </div>
   )

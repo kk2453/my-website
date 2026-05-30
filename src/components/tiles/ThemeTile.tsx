@@ -13,7 +13,6 @@ export function ThemeTile({ theme, onToggle }: Props) {
         backgroundColor: 'var(--color-surface)',
         border: '1px solid var(--color-border)',
       }}
-      onClick={onToggle}
     >
       <span
         className="text-xs tracking-widest uppercase"
@@ -22,7 +21,7 @@ export function ThemeTile({ theme, onToggle }: Props) {
         theme
       </span>
 
-      <div className="mt-auto flex items-center justify-between">
+      <div className="mt-auto flex items-center justify-between" onClick={onToggle}>
         <p
           className="text-2xl font-light"
           style={{ color: 'var(--color-text)', fontFamily: 'var(--font-serif)' }}

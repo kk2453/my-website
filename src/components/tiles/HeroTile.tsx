@@ -19,7 +19,7 @@ export function HeroTile() {
           className="text-4xl md:text-5xl font-light leading-tight mb-2"
           style={{ color: 'var(--color-text)', fontFamily: 'var(--font-serif)' }}
         >
-          Hey, I’m Kartikay
+          hey, i’m Kartikay
         </h1>
         <p
           className="text-sm"

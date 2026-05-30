@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 
 type Theme = 'light' | 'dark'
 
-function useTheme() {
+export function useTheme() {
     const [theme, setTheme] = useState<Theme>(() => {
         const stored = localStorage.getItem('theme') as Theme | null
         if (stored) return stored
@@ -18,4 +18,3 @@ function useTheme() {
 
     return { theme, toggle }
 }
-export default useTheme

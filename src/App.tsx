@@ -19,16 +19,7 @@ function App() {
     >
       <LoginButton />
 
-      <div className="
-        grid
-        grid-cols-1
-        md:grid-cols-12
-        gap-3
-        w-full
-        max-w-4xl
-        mx-auto
-        items-stretch
-      ">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-3 items-stretch" style={{maxWidth: '900px', margin: '0 auto', width: '100%',}}>
 
         {/* row 1 — hero + location */}
         <div className="md:col-span-7 min-h-52"><HeroTile /></div>

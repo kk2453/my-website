@@ -16,7 +16,7 @@ export function HeroTile() {
 
       <div className="mt-auto">
         <h1
-          className="text-4xl md:text-5xl font-light leading-tight mb-2"
+          className="text-3xl md:text-5xl font-light leading-tight mb-2"
           style={{ color: 'var(--color-text)', fontFamily: 'var(--font-serif)' }}
         >
           hey, i’m Kartikay

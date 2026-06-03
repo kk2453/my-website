@@ -40,7 +40,7 @@ export function StackTile() {
             </span>
             <p
               className="text-sm"
-              style={{ color: 'var(--color-text)', fontFamily: 'var(--font-mono)' }}
+              style={{ color: 'var(--color-text)', fontFamily: 'var(--font-mono)', wordBreak: 'break-word'}}
             >
               {group.items.join(' · ')}
             </p>
